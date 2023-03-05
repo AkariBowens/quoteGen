@@ -1,0 +1,86 @@
+@media screen and (min-width: 601px) {
+  .quote__container--text > p {
+    font-size: 3.5rem;
+  }
+  .quote__container--author > p {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .quote__button--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .quote__container--text > p {
+    font-size: 2.5rem;
+  }
+  .quote__container--author > p {
+    font-size: 2rem;
+  }
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* width: 75%; */
+  height: auto;
+}
+
+.quote__container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2.5rem auto 1.5rem auto;
+  height: 500px;
+  width: 70%;
+  padding: 40px;
+  font-weight: 400;
+
+  /* background-color: khaki; */
+  background-color: #0f4c75;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 8px 8px #1b262c;
+
+  color: #ffffff;
+}
+
+.quote__button--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 99%;
+  height: auto;
+
+  margin: 0.85rem;
+}
+
+.quote__container > button {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+}
+
+.quote__button--container > button {
+  margin: 10px;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1.25px solid black;
+  border-radius: 10px;
+
+  background-color: #bbe1fa;
+  color: #0f4c75;
+}
+
+.quote__button--container > button:hover {
+  background-color: #749eb3;
+}
+
+.quote__button {
+  text-align: center;
+}
