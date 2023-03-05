@@ -1,4 +1,4 @@
-﻿# quoteGen
+﻿# Quote Gen
 
 I built this using Axios to access the API and React for the frontend.
 
