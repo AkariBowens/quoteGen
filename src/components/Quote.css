@@ -1,26 +1,3 @@
-@media screen and (min-width: 601px) {
-  .quote__container--text > p {
-    font-size: 3.5rem;
-  }
-  .quote__container--author > p {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .quote__button--container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  .quote__container--text > p {
-    font-size: 2.5rem;
-  }
-  .quote__container--author > p {
-    font-size: 2rem;
-  }
-}
-
 .quote {
   display: flex;
   flex-direction: column;
@@ -39,7 +16,6 @@
   padding: 40px;
   font-weight: 400;
 
-  /* background-color: khaki; */
   background-color: #0f4c75;
   border-radius: 15px;
   border: 2px solid black;
@@ -52,6 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 99%;
   height: auto;
 
@@ -83,4 +60,27 @@
 
 .quote__button {
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .quote__container--text > p {
+    font-size: 3rem;
+  }
+  .quote__container--author > p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .quote__button--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .quote__container--text > p {
+    font-size: 2.5rem;
+  }
+  .quote__container--author > p {
+    font-size: 2rem;
+  }
 }
